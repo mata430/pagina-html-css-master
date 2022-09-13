@@ -25,3 +25,26 @@ Hay que envolver el botton en un form.
 codigo <span style="color:red"> **DRY**</span>: Don't Repeat Yourself (No repitas tu codigo)
 
 ## Estilizado CSS
+
+1. **container**: Centramos el contenido de los textos y subtitulos
+
+```css
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+```
+
+2.  **header**
+
+Centramos el header y estilizamos el logo
+
+```css
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+```
+
+me quede en seccion caracteristicas
